@@ -24,9 +24,10 @@
     "androidSigningKey": "release",
     "androidForceUserAgent": "",
     "iosForceUserAgent": "",
+    "androidFullScreen": false,
     "iosCustomHeaders": {},
     "androidCustomHeaders": {},
-    "version": 3
+    "version": 7
   },
   "navigation": {
     "tabNavigation": {
@@ -117,7 +118,7 @@
       ],
       "active": true
     },
-    "androidPullToRefresh": false,
+    "androidPullToRefresh": true,
     "iosPullToRefresh": true,
     "navigationTitles": {
       "titles": [],
@@ -195,7 +196,8 @@
       "enabled": false,
       "numWindows": 5,
       "autoClose": false
-    }
+    },
+    "iosSettings": {}
   },
   "styling": {
     "iosLaunchScreen": {
