@@ -16,7 +16,7 @@
     "publicKey": "xapeaz",
     "deviceRegKey": "5dtjdj1bh2tgkya9ufhxq1qwfm",
     "appName": "Soms Wiki",
-    "initialUrl": "https://somswiki.colebolebole.tk",
+    "initialUrl": "https://somswiki.colebolebole.xyz",
     "androidPackageName": "co.median.android.xapeaz",
     "iosBundleId": "co.median.ios.xapeaz",
     "iosUserAgentAdd": "median",
@@ -25,9 +25,10 @@
     "androidForceUserAgent": "",
     "iosForceUserAgent": "",
     "androidFullScreen": false,
+    "injectMedianJS": true,
     "iosCustomHeaders": {},
     "androidCustomHeaders": {},
-    "version": 7
+    "version": 10
   },
   "navigation": {
     "tabNavigation": {
@@ -107,7 +108,7 @@
           "mode": "internal",
           "label": "All pages on my domain",
           "pagesToTrigger": "domain",
-          "regex": "https?:\\/\\/([-\\w]+\\.)*colebolebole.tk(\\/.*)?$"
+          "regex": "https?:\\/\\/([-\\w]+\\.)*colebolebole.xyz(\\/.*)?$"
         },
         {
           "mode": "appbrowser",

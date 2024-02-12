@@ -1,4 +1,4 @@
-Soms wiki app ios source
+gonative-ios
 ============
 
 This is the native IOS code used by https://gonative.io/
